@@ -42,7 +42,7 @@
         integrity="sha384-KKHvKjq0MOkB8Myx1pQ2GQyRhzo2ELIuZXPyy0VCOEYO1S5kHb4YXrW29a9zK1NV"
         crossorigin="anonymous"></script>
   <script>
-    window.socket = io();
+    window.socket = io("https://hortlakli-koy-server.onrender.com");
 
     document.getElementById("continueBtn").addEventListener("click", () => {
       const nickname = document.getElementById("nickname").value.trim();
